@@ -1,0 +1,32 @@
+cat instructions
+touch solution.txt
+cat hint1
+head -n 20 people
+head -n 20 crimescene
+grep "CLUE" crimescene
+grep "Annabel" people
+grep "Annabel" vehicles
+cat Mattapan Street
+cat Buckingham Place
+cat Hart Place
+cat Haley Street
+head -n 179 Buckingham_Place | tail -n 1
+cat interview-699607
+head -n 176 Haley_Street | tail -n 1
+cat interview-871877
+cat hint7
+grep -A 5 "L337" vehicles
+cat hint8
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Erika Owens"
+
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Aron Pilhofer"
+grep "Aron Pilhofer" people
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep -c "Jeremy Bowers"
+grep "Jeremy Bowers" people
+head -n 275 Plainfield_Street | tail -n 1
+cat interview-29741223
+head -n 284 Dunstable_Road | tail -n 1
+cat interview-9620713
+
+
+murder is Jeremy Bowers
