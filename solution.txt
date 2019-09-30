@@ -1,0 +1,46 @@
+first created a directory called evidence to collet
+all the the found evidences
+
+head -n 20 people
+to print the first 20 line
+
+cat crimescene | grep CLUE
+to print all lines that contains CLUE word inside of it
+
+cat vehicles | grep Annabel
+to print all the lines that contains Annabel
+
+cat people | grep Oluwasegun\ Annabel
+to see where she lives
+
+head -n 173 streets/Mattapan_Street | tail -n 1
+this command will print only the list line
+
+grep -A 5 "L337" vehicles
+this will print all vehicles that has a number plate start with L337
+
+we're looking for blue Honda with license plate start with L337
+
+the good solution to find that easily with out seeing all the cars is
+by cat all the results to another file .
+to do that use the following command
+
+grep -A 5 "L337" vehicles >> evidence/carplates.txt
+
+to find the blue Honda
+grep -A 5 "Honda" carplates.txt
+
+we can make it more easier by
+grep -A 5 "Honda" carplates.txt >> blue-Honda.txt
+
+now by command grep -A 5 "Blue" blue-honda.txt
+we will see all people who has blue Honda
+
+
+by using cat AAA Delta_SkyMiles library.txt | grep -c "any name"
+  we can see the matches character in all mentioned files
+
+we can try that command with all people we found previously in
+  blue-honda.txt and start investigation again
+
+  the suspect is Jeremy Bowers 
