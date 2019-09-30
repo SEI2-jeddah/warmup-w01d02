@@ -1,0 +1,104 @@
+cat instructions
+
+cd mystery/
+
+grep 'CLUE' crimescene 
+
+cat ../hint1
+
+head -n 20 people
+
+grep "CLUE" crimescene
+
+cat ../hint3
+
+
+cat ../hint4
+
+grep 'Annabel' people 
+
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+
+- Looking for the interview by the street adress 
+
+head -n 40 streets/Hart_Place | tail -n 1
+
+SEE INTERVIEW #47246024
+
+- See the interiew for the first girl witness
+
+cat interviews/interview-47246024
+
+She isn't the witness from the cafe
+
+- Again Looking for the interview by the street adress 
+
+head -n 179 streets/Buckingham_Place | tail -n 1
+
+SEE INTERVIEW #699607
+
+- See the interiew for the second girl witness
+
+cat interviews/interview-699607
+
+She is the girl from the cafe and she saw the license plate that starts with "L337" and ends with "9"
+
+grep -A 5 'L337' vehicles
+
+- Create suspected-cars.txt to search on it
+
+grep -A 5 'L337' vehicles  >> ../suspected-cars.txt 
+
+grep -A 4 -B 1 'Honda' ../suspected-cars.txt
+
+- Suspected persons with Height 6:
+
+License Plate L337DV9
+Make: Honda
+Color: Blue
+Owner: Joe Germuska
+Height: 6'2"
+Weight: 164 lbs
+--
+--
+License Plate L3375A9
+Make: Honda
+Color: Blue
+Owner: Jeremy Bowers
+Height: 6'1"
+Weight: 204 lbs
+--
+--
+License Plate L337WR9
+Make: Honda
+Color: Blue
+Owner: Jacqui Maher
+Height: 6'2"
+Weight: 130 lbs
+
+- Search by name in membership and match it :
+
+cat AAA Delta_SkyMiles Museum_of_Bash_History library.txt | grep -c "Jeremy Bowers"
+
+- Eliminate Joe Germuska because not matched
+
+- So now we have two suspect "Jeremy Bowers" and "Jacqui Maher"
+
+- lets see the interview based on the address for both persons:
+
+head -n 284 streets/Dunstable_Road  | tail -n 1
+
+cat interviews/interview-9620713
+
+head -n 224 streets/Andover_Road | tail -n 1
+
+cat interviews/interview-904020
+
+- So eliminate "Jacqui Maher" because he was in soccer game at that time
+
+- WE FOUND THAT JEREMY BRWERS WAS THE MURDERED
+
+
