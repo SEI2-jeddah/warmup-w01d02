@@ -1,0 +1,27 @@
+Killer is Jeremy Bowers.
+
+Using the instruction and hints 
+
+Going to the cloned directory
+
+Used commands:
+
+grep "CLUE" crimescene (reading the clues)(find the name Annabel)
+
+grep "Annabel" people 
+
+(Looking for each street address of matched results inside streets dir)
+
+head -n 179 streets/Buckingham_place (find the interview number) 
+
+Using the interview we know the it is male at least 6 ft and car L337 plate and blue Honda
+
+grep -A 4 "Honda" vehicles
+
+Look for matching results, we find multiple matching
+
+Use the memberships we have, Inside the membership dir
+Find the correct men names by ls inside men folder
+
+Cat AAA, Delta SkyMiles, the local library, and the Museum of Bash History | grep "killer name" 
+
