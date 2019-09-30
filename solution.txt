@@ -1,0 +1,132 @@
+  1. Commands
+
+    1  SEI
+    2  cd warmup/
+    3  git clone https://github.com/SEI2-jeddah/warmup-w01d02.git
+    4  git clone https://github.com/midhatn/warmup-w01d02.git
+    5  cd warmup-w01d02/
+    6  ls
+    7  cat instructions 
+    8  ls -a
+    9  cd mystery/
+   10  ls
+   11  ls -a
+   12  cd ..
+   13  ls
+   14  cat hint1
+   15  cd hint1
+   16  ls
+   17  cd mystery/
+   18  ls
+   19  ls -a
+   20  cd interviews/
+   21  ls ~a
+   22  ls -a
+   23  cat interview-1536668
+   24  grep "CLUE"
+   25  grep -r "solution" *
+   26  cd ..
+   27  grep -r "solution" *
+   28  grep -r "CLUE" *
+   29  grep -r "Annabel" *
+   30  sudo find / -name ".avi" -print
+   31  sudo find / -name "solution" -print
+   32  sudo -a
+   33  sudo -s
+   34  cat hint2
+   35  cat hint3
+   36  cat hint4
+   37  cat hint5
+   38  grep -r "Annabel" *
+   39  grep "Annabel" people
+   40  ls
+   41  cd mystery/
+   42  ls
+   43  grep "Annabel" people
+   44  cd ..
+   45  cat hint4
+   46  cat hint5
+   47  cd in
+   48  ls
+   49  cd mystery/
+   50  ls
+   51  cd interviews/
+   52  head -n 173 streets/Mattapan_Street | tail -n 1
+   53  cd ..
+   54  ls
+   55  cd streets/
+   56  head -n 173 streets/Mattapan_Street | tail -n 1
+   57  ls
+   58  cd ..
+   59  head -n 173 streets/Mattapan_Street | tail -n 1
+   60  ls
+   61  cd interviews/
+   62  ls
+   63  cat interview-9437737
+   64  cd ..
+   65  cat hint6
+   66  cat hint5
+   67  ls
+   68  cd mystery/
+   69  ls
+   70  grep "Oluwasegun Annabel" *
+   71  cd .
+   72  cd ..
+   73  grep "CLUE" *
+   74  cat hint6
+   75  cat hint7
+   76  grep -A 5 "L337" mystery/vehicles
+   77  cat hint8
+   78  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith"
+   79  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+   80  cat hint9
+   81  cat hint8
+   82  grep -r "CLUE" *
+   83* 
+   84  ls
+   85  cd mystery/
+   86  ls
+   87  cat people 
+   88  grep "Jeremy Bowers"
+   89  grep -r "Jeremy Bowers" *
+   90  ls
+   91  nano people
+   92  grep -r "Jeremy Bowers" *
+   93  grep  "Bowers" mystery/vehicles
+   94  cd ..
+   95  grep  "Bowers" mystery/vehicles
+   96  grep  -A "Bowers" mystery/vehicles
+   97  cat hint7
+   98  grep -A 5 "L337" mystery/vehicles
+   99  grep -r "CLUE" *
+  100  cat hint7
+  101  cat hint8
+  102  cat AAA
+  103  cat AAA | grep "John Smith"
+  104  ls
+  105  cs mystery/
+  106  cd mystery/
+  107  ls
+  108  cd memberships/
+  109  cat AAA | grep "John Smith"
+  110  cat AAA | grep "Matt Waite"
+  111  cat AAA | grep "Joe Germuska"
+  112  cat AAA | grep "Jeremy Bowers"
+  113  cat AAA | grep "Jacqui Maher"
+  114  cd ..
+  115  grep -r "CLUE" *
+  116  cd mystery/
+  117  ls
+  118  cd memberships/
+  119  cat AAA Delta SkyMiles | grep "Matt Waite"
+  120  cat AAA Delta SkyMiles | grep "Joe Germuska"
+  121  cat AAA Delta SkyMiles | grep "Jeremy Bowers"
+  122  cat AAA Delta_SkyMiles | grep "Jeremy Bowers"
+  123  cat AAA Delta_SkyMiles library | grep "Jeremy Bowers"
+  124  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jeremy Bowers"
+  125  cat AAA Delta_SkyMiles Museum_of_Bash_History | grep "Jacqui Maher"
+  126  history
+
+
+
+2. Jeremy Bowers
