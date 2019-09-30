@@ -1,0 +1,4 @@
+Killer: Jeremy Bowers
+
+commands:
+cat, grep and less.
