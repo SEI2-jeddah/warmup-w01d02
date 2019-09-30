@@ -1,0 +1,29 @@
+196  grep -A 5 "L337" mystery/vehicles
+  197  grep -A 5 "L337" vehicles
+  198* cat hint8
+  199  head -n 224 Andover_Road
+  200  cd streets
+  201  cat Fitness_Galaxy AAA United_MileagePlus | grep "John Smith" | wc -l%
+  202  head -n 224 Andover_Road
+  203  cd ..
+  204  cd interviews
+  205  cat #904020
+  206  cat interview-904020
+  207  cat Museum_of_Bash_History AAA library.txt  | grep -c “Jeremy Bowers” \n
+  208  cd ..
+  209  ls
+  210  cat Museum_of_Bash_History AAA library.txt  | grep -c “Jermy Bowers”\n
+  211  cat Museum_of_Bash_History AAA library.txt  | grep -c “Jermy Bowers” people\n
+  212  cat Museum_of_Bash_History AAA library  | grep -c “Jermy Bowers” people\n
+  213  cd memberships
+  214  cat Museum_of_Bash_History AAA library  | grep -c “Jermy Bowers” people\n
+  215  cat Museum_of_Bash_History AAA library  | grep -c “Jermy Bowers”\n
+  216  pwd\n
+  217  cat  Museum_of_Bash_History AAA library  | grep -c “Jermy Bowers”\n
+  218  cat  Museum_of_Bash_History AAA library.txt  | grep -c “Jermy Bowers”\n
+  219  cat  Museum_of_Bash_History AAA library.txt  | grep -c “Jermy Bowers” people\n
+  220  cat  Museum_of_Bash_History AAA library.txt  | grep -c “Jeremy Bowers” people\n
+  221  cat  Museum_of_Bash_History AAA library.txt  | grep -c “Jeremy Bowers”\n
+  222  cat  Museum_of_Bash_History AAA library.txt  | grep -c 'Jeremy Bowers'\n
+
+Killer is Jermy Bowers since he is a male and owns a blue Honda with that specific plate number and 6'1 and the other suspect Maher is innocent from interviews.
